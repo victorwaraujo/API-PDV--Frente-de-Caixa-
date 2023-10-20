@@ -1,0 +1,42 @@
+{
+  "name": "desafio-backend-modulo-05-sistema-pdv-b2b-ifood-t04",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlissonJesus/desafio-backend-modulo-05-sistema-pdv-b2b-ifood-t04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlissonJesus/desafio-backend-modulo-05-sistema-pdv-b2b-ifood-t04/issues"
+  },
+  "homepage": "https://github.com/AlissonJesus/desafio-backend-modulo-05-sistema-pdv-b2b-ifood-t04#readme",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1472.0",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^2.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.6",
+    "pg": "^8.11.3"
+  }
+}
